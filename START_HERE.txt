@@ -1,0 +1,97 @@
+Bem-vindo ao Backend Java Template!
+
+Este template foi criado para que você tenha uma base sólida e pronta para produção,
+sem perder tempo com boilerplate ou decisões de arquitetura.
+
+█████████████████████████████████████████████████████████████
+
+O QUE VOCÊ TEM:
+
+✅ Spring Boot 3.3.4 (framework web moderno)
+✅ Maven (build tool padrão Java)
+✅ PostgreSQL (banco de dados)
+✅ JPA/Hibernate (ORM)
+✅ Testes com JUnit 5 e Mockito
+✅ Exception handling global
+✅ Padrão de resposta HTTP estruturado
+✅ Validação em duas camadas
+✅ Classes base reutilizáveis
+✅ Documentação completa com exemplos
+
+█████████████████████████████████████████████████████████████
+
+COMEÇAR EM 3 PASSOS:
+
+1️⃣  Leia: SETUP.md (10 minutos)
+    → Configure seu ambiente local
+
+2️⃣  Execute: mvn clean install
+    → Compile o projeto
+
+3️⃣  Teste: mvn spring-boot:run
+    → Rode a aplicação
+
+Então acesse: http://localhost:8080/api/health
+
+█████████████████████████████████████████████████████████████
+
+ESTRUTURA DOS ARQUIVOS:
+
+📂 Documentation (leia nessa ordem):
+   ├─ INDEX.md ......................... Índice e navegação
+   ├─ SETUP.md ......................... Como configurar
+   ├─ README.md ........................ Visão geral
+   ├─ EXAMPLE_ENDPOINT.md .............. Tutorial prático
+   ├─ DATABASE_SETUP.md ............... Adicionar banco de dados
+   ├─ BEST_PRACTICES.md ............... Padrões avançados
+   └─ PURPOSE.md ....................... Referência rápida
+
+📂 Project Structure:
+   ├─ pom.xml .......................... Dependências Maven
+   ├─ .env.example ..................... Variáveis de ambiente
+   ├─ src/main/resources/
+   │  ├─ application.yml ............... Config base
+   │  ├─ application-dev.yml ........... Profile desenvolvimento
+   │  └─ application-prod.yml .......... Profile produção
+   └─ src/main/java/com/yourproject/
+      ├─ Application.java .............. Entry point
+      ├─ config/ ....................... Configurações
+      ├─ controllers/ .................. REST endpoints
+      ├─ services/ ..................... Lógica de negócio
+      ├─ models/ ....................... DTOs e records
+      ├─ errors/ ....................... Exceções customizadas
+      ├─ middleware/ ................... Exception handler global
+      └─ utils/ ........................ Helpers
+
+█████████████████████████████████████████████████████████████
+
+COMANDOS MAIS USADOS:
+
+# Compilar
+mvn clean install
+
+# Rodar em desenvolvimento
+mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=dev"
+
+# Rodar testes
+mvn test
+
+# Build para produção (gera JAR)
+mvn clean package -DskipTests
+
+# Executar o JAR
+java -jar target/backend-1.0.0.jar
+
+█████████████████████████████████████████████████████████████
+
+DÚVIDAS?
+
+• Setup: Veja SETUP.md
+• Como criar endpoint: Veja EXAMPLE_ENDPOINT.md
+• Banco de dados: Veja DATABASE_SETUP.md
+• Padrões: Veja BEST_PRACTICES.md
+• Tudo: Veja INDEX.md
+
+█████████████████████████████████████████████████████████████
+
+BOA SORTE! 🎯
