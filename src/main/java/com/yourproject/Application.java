@@ -20,7 +20,7 @@ public class Application {
             applicationName + " started successfully\n" +
             "Profile: " + activeProfiles + "\n" +
             "URL: http://localhost:" + port + "\n" +
-            "Health: http://localhost:" + port + "/health\n" +
+            "Health: http://localhost:" + port + "/api/health\n" +
             "==================================================================\n");
     }
 }
