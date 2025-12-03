@@ -35,22 +35,22 @@ src/main/java/com/yourproject/
 ├── controllers/
 │   ├── BaseController.java            # Controller base
 │   ├── HealthController.java          # Health check
-│   └── TSPController.java             # API do TSP ⭐
+│   └── TSPController.java             # API do TSP
 ├── services/
 │   ├── BaseService.java               # Service base
 │   ├── HealthService.java
-│   ├── GeneticAlgorithmService.java   # Lógica principal do AG ⭐
+│   ├── GeneticAlgorithmService.java   # Lógica principal do AG
 │   └── operators/
-│       ├── PMXCrossover.java          # Operador de cruzamento ⭐
-│       ├── MutationOperator.java      # Operador de mutação ⭐
-│       └── SelectionOperator.java     # Operador de seleção ⭐
+│       ├── PMXCrossover.java          # Operador de cruzamento
+│       ├── MutationOperator.java      # Operador de mutação
+│       └── SelectionOperator.java     # Operador de seleção
 ├── models/
-│   ├── City.java                      # Representa uma cidade ⭐
-│   ├── Route.java                     # Representa uma rota (indivíduo) ⭐
-│   ├── Population.java                # População de rotas ⭐
-│   ├── GAConfig.java                  # Configuração do AG ⭐
-│   ├── GenerationResult.java          # Resultado de uma geração ⭐
-│   └── GAExecutionResult.java         # Resultado final da execução ⭐
+│   ├── City.java                      # Representa uma cidade
+│   ├── Route.java                     # Representa uma rota (indivíduo)
+│   ├── Population.java                # População de rotas
+│   ├── GAConfig.java                  # Configuração do AG
+│   ├── GenerationResult.java          # Resultado de uma geração
+│   └── GAExecutionResult.java         # Resultado final da execução
 ├── errors/                            # Sistema de erros
 └── middleware/
     └── GlobalExceptionHandler.java    # Tratamento global de erros
